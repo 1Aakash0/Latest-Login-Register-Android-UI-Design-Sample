@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4A605D"
+    android:gravity="center">
+<ImageView
+    android:layout_width="140dp"
+    android:src="@drawable/logop"
+    android:layout_height="140dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+<ImageView
+    android:layout_width="55dp"
+    android:layout_height="match_parent"
+    android:padding="8dp"
+    android:background="#2DFFFFFF"
+    android:src="@drawable/ic_baseline_alternate_email_24"/>
+        <View
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:background="#E4AB2C"
+            android:layout_marginRight="5dp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            android:paddingLeft="10dp"
+            android:textColorHint="#FFF"
+            android:backgroundTint="#E4AB2C"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+        <ImageView
+            android:padding="8dp"
+            android:layout_width="55dp"
+            android:layout_height="match_parent"
+            android:background="#2DFFFFFF"
+            android:src="@drawable/ic_baseline_lock_24"/>
+        <View
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:background="#E4AB2C"
+            android:layout_marginRight="5dp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            android:paddingLeft="10dp"
+            android:textColorHint="#FFF"
+            android:backgroundTint="#E4AB2C"/>
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFF"
+        android:gravity="center"
+        android:text="Fogot Password?"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="15dp"/>
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/newbuttonshape"
+    android:layout_marginLeft="45dp"
+    android:layout_marginRight="45dp"
+    android:layout_marginTop="5dp"
+    android:text="Log in"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFF"
+        android:gravity="center"
+        android:text="New Member? Join Now"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"/>
+
+</LinearLayout>
